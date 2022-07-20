@@ -1,0 +1,13 @@
+.statistics {
+    width: 420px;
+}
+
+.statList {
+   display: flex;
+   list-style-type: none;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+}

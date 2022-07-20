@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 
 export default function Profile({username, tag, location, avatar, stats}) {
     return (
-        <div className={css.profile}>
+        <section>
+            <div className={css.profile}>
             <div className={css.description}>
                 <img
                     src={avatar}
@@ -30,6 +31,9 @@ export default function Profile({username, tag, location, avatar, stats}) {
                 </li>
             </ul>
         </div>
+
+        </section>
+        
     );
 }
 
