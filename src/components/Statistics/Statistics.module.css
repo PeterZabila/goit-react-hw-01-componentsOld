@@ -5,9 +5,31 @@
 .statList {
    display: flex;
    list-style-type: none;
+   width: 100%;
+   padding: 0px;
 }
 
 .listItem {
     display: flex;
     flex-direction: column;
+    width: 105px;
+    padding: 15px 0;
+    outline: 1px solid white;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+}
+
+.title {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.percentage {
+    font-size: 32px;
+    color: white;
+    text-align: center;
 }
