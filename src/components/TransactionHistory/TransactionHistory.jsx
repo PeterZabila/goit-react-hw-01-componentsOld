@@ -1,5 +1,6 @@
-import css from "./TransactionHistory.module.css"
-import Transaction from "./Transaction"
+import css from "./TransactionHistory.module.css";
+import Transaction from "./Transaction";
+import PropTypes from 'prop-types';
 
 export default function TransactionHistory({items}) {
 
@@ -22,3 +23,6 @@ export default function TransactionHistory({items}) {
     )
 }
 
+TransactionHistory.propTypes = {
+    items: PropTypes.array,
+}

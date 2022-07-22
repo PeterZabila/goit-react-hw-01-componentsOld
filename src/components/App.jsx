@@ -32,7 +32,7 @@ export const App = () => {
       />
 
       <Statistics
-           stats={data}
+           data={data}
       />
 
       <FriendsList

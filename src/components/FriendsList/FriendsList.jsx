@@ -1,4 +1,5 @@
 import Friend from './Friend';
+import PropTypes from 'prop-types';
 import css from './FriendsStyle.module.css'
 
 export default function FriendsList({friends}) {
@@ -12,4 +13,8 @@ export default function FriendsList({friends}) {
             ))}
         </ul>
     )
+}
+
+FriendsList.propTypes = {
+    friends: PropTypes.array,
 }
